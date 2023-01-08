@@ -1,0 +1,155 @@
+body {
+    background: linear-gradient(45deg, rgb(243, 157, 87), rgb(148, 172, 250));
+    color: black;
+    margin: 0;
+}
+
+#header {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(37, 202, 125);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+#header-img {
+    width: max(200px, 25vw);
+    
+}
+
+#nav-bar {
+    width: 50%;
+    max-width: 300px;
+    height: 100%;
+}
+
+#nav-bar>ul {
+    display: flex;    
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+    align-items: center;
+}
+
+#nav-bar>ul>li {
+    color: #dfdfe2;
+    margin: auto;
+    padding:0 ;
+    width: auto;
+    list-style-type: none;
+    font-style: bold;
+    text-transform: capitalize;
+        
+}
+
+#nav-bar>ul>li:hover {
+    background-color: #dfdfe2;
+    color: #1b1b32;
+    cursor: pointer;
+}
+
+#nav-bar>ul>li>a {
+    color: black;
+    text-decoration: none;
+}
+
+main {
+    width: 100%;
+    margin: 0;
+}
+
+#form {
+    width: 65%;
+    margin: 51px auto;
+}
+
+#inicio {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 25px;
+    font-style: bold;
+}
+
+#submit,
+#envio{
+    margin-top: 25px;
+    background-color: orangered;
+    padding: 0 25px;
+    border-radius: 5%;
+}
+
+#submit:hover {
+    background-color: aqua;
+    transition: 2s;
+}
+
+#features {
+    margin: 45px 0 0 25px;
+}
+
+.padre {
+    width: 100%;
+    display: flex;
+    height: auto;
+    align-items: center;
+}
+
+.img {
+    width: 200px;
+}
+
+.text {
+    text-align: left;
+    width: 100%;
+}
+
+#how_it_words {
+    margin: 25px auto;
+    width: 80%;
+}
+
+#video {
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+#pricing {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.cuadros {
+    margin: auto;
+    width: 32%;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.cuadros ul {
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+.cuadros ul li {
+    width: 100%;
+}
+
+.cuadros header {
+    width: 100%;
+    background-color: rgba(120, 146, 233, 0.705);
+    padding: 15px 0;
+    font-size: 20px;
+    font-style: bold;
+    text-transform: capitalize;
+}
